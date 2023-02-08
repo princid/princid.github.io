@@ -215,66 +215,43 @@ header.shadow {
   padding-left: 4rem;
   object-position: center;
 }
+
+.bars{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
 .bars-box {
-  position: relative;
+  padding: 1rem;
+  width: 260px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
-  margin-bottom: 1rem;
+  text-align: center;
+  border-radius: 0.7rem;
+  border-bottom: 2px solid #646064;
+  box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
-.bars-box h3,
-span {
-  font-size: 1.1rem;
-  font-weight: 500;
+
+.bars-box:hover {
+  background-color: #0ad1cf;
+  transition-delay: 2ms;
 }
-.light-bar {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 0.5rem;
-  background: #f786777e;
-  border-radius: 0.5rem;
+
+.bars-box h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0.7rem 0 0.4rem;
 }
-.percent-bar {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 0.5rem;
-  background: var(--main-color);
-  border-radius: 0.5rem;
+.bars-box:hover h3 {
+  color: #fff;
+  transition-delay: 2ms;
 }
-.html-bar {
-  width: 94%;
-}
-.css-bar {
-  width: 84%;
-}
-.js-bar {
-  width: 65%;
-}
-.react-bar {
-  width: 40%;
-}
-.cpp-bar {
-  width: 62%;
-}
-.c-bar {
-  width: 75%;
-}
-.dsa-bar {
-  width: 60%;
-}
-.bs-bar {
-  width: 80%;
-}
-.nui-bar {
-  width: 78%;
-}
-.fg-bar {
-  width: 85%;
-}
+
 .interests-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
@@ -434,7 +411,7 @@ form textarea {
 .copyright a {
   color: #22cf91;
 }
-/* Making Responsive */
+/* Making it Responsive */
 @media (max-width: 991px) {
   header {
     padding: 18px 4%;
