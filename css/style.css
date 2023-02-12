@@ -164,8 +164,8 @@ header.shadow {
 }
 .btn:hover {
   /* background: var(--hover); */
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, #090979 35%, #ff0078 100%);
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #090979 35%, #ff0078 100%);
 }
 
 .about-container {
