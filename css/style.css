@@ -101,6 +101,7 @@ header.shadow {
 #darkmode {
   font-size: 22px;
   cursor: pointer;
+  margin: auto 1.5rem;
 }
 .home {
   position: relative;
@@ -127,7 +128,7 @@ header.shadow {
 .home-text h1 {
   font-size: var(--big-font);
   background: #32a5cf;
-  background: linear-gradient(to right, #32a5cf 0%, #cf1512 100%);
+  background: linear-gradient(to right, #32a5cf 0%, #ff0078 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -164,7 +165,7 @@ header.shadow {
 .btn:hover {
   /* background: var(--hover); */
   background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, #090979 35%, #ff0078 100%);
 }
 
 .about-container {
