@@ -14,4 +14,4 @@ This portfolio website serves as a representation of my skills, projects and exp
 
 ### Illustration from : https://iconscout.com/illustration/man-developing-website-on-desk-2040889 && https://www.freepik.com/free-vector/programming-concept-illustration_7118756.htm#query=developer&position=10&from_view=search&track=sph
 
-### For Gradient Color : Visit - https://cssgradient.io/
+### 🎨 For Gradient Color : Visit - https://cssgradient.io/
