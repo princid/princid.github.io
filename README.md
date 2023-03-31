@@ -10,7 +10,7 @@ This portfolio website serves as a representation of my skills, projects and exp
 - JavaScript
 
 # VISUALS OF MY PORTFOLIO
-![image](https://user-images.githubusercontent.com/90444477/217601431-9bdc66ee-e763-44ac-9f73-31e8527a105c.png)
+![image](https://user-images.githubusercontent.com/90444477/229055454-5676b673-6c27-4146-a554-d77d63b4e32e.png)
 
 ### Illustration from : https://iconscout.com/illustration/man-developing-website-on-desk-2040889 && https://www.freepik.com/free-vector/programming-concept-illustration_7118756.htm#query=developer&position=10&from_view=search&track=sph
 
