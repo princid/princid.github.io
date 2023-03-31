@@ -164,8 +164,8 @@ header.shadow {
 }
 .btn:hover {
   /* background: var(--hover); */
-  background: #020024;
-  background: linear-gradient(90deg, #020024 0%, #090979 35%, #ff0078 100%);
+  background: rgb(47, 135, 177);
+  background: linear-gradient(147deg, rgba(47, 135, 177, 1) 0%, rgba(131, 58, 180, 1) 46%, rgba(253, 29, 237, 1) 81%);
 }
 
 .about-container {
@@ -217,7 +217,7 @@ header.shadow {
   object-position: center;
 }
 
-.bars{
+.bars {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   justify-content: center;
@@ -239,8 +239,11 @@ header.shadow {
 }
 
 .bars-box:hover {
-  background-color: #0ad1cf;
+  /* background-color: #0ad1cf; */
   transition-delay: 2ms;
+  background: rgb(47, 135, 177);
+  background: linear-gradient(147deg, rgba(47, 135, 177, 1) 0%, rgba(131, 58, 180, 1) 46%, rgba(253, 29, 237, 1) 81%);
+  border-bottom: 2px solid #0ad1cf;
 }
 
 .bars-box h3 {
@@ -272,7 +275,9 @@ header.shadow {
   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
 .interests-box:hover {
-  background-color: #02225a;
+  /* background-color: #02225a; */
+  background: rgb(47, 135, 177);
+  background: linear-gradient(147deg, rgba(47, 135, 177, 1) 0%, rgba(131, 58, 180, 1) 46%, rgba(253, 29, 237, 1) 81%);
 }
 
 .interests-box h3 {
@@ -297,7 +302,7 @@ header.shadow {
   font-weight: 500;
 }
 .interests-box:hover a {
-  color: #8b8a8f;
+  color: #c8c8c9;
 }
 .project-content {
   display: grid;
@@ -401,6 +406,23 @@ form textarea {
   width: 40px;
   height: 40px;
 }
+
+.footer-social a i:hover {
+  background: rgb(47, 135, 177);
+  background: linear-gradient(147deg, rgba(47, 135, 177, 1) 0%, rgba(131, 58, 180, 1) 46%, rgba(253, 29, 29, 1) 81%);
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin-left: 10px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #fff;
+  border-radius: 30%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  transition: 0.2s;
+}
+
 .copyright {
   padding: 20px;
   /* background: rgb(41, 40, 40); */
