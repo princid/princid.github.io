@@ -2,10 +2,10 @@
 
 This portfolio website serves as a representation of my skills, projects and experiences as a front-end developer. It showcases my expertise in designing and developing visually appealing and user-friendly websites using HTML, CSS, JavaScript, and other front-end technologies.
 
-## 🌐 VISIT MY PORTFOLIO : https://princid.github.io/
+## 🌐 VISIT MY PORTFOLIO : [Pritrage](https://princid.github.io/)
 
 ## 👨‍💻 Technology Stack :
-- [HTML](https://github.com/princid/princid.github.io/assets/90444477/92520510-73ef-4bb9-ba00-19d9196321b7)
+- HTML
 - CSS
 - JavaScript
 
