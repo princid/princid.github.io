@@ -103,6 +103,11 @@ header.shadow {
   cursor: pointer;
   margin: auto 1.5rem;
 }
+b {
+  background: -webkit-linear-gradient(0deg, #48abe0 0%, #ff00c8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .home {
   position: relative;
   width: 100%;
@@ -124,11 +129,14 @@ header.shadow {
 .home-text span {
   font-size: var(--medium-font);
   font-weight: 500;
+  background: -webkit-linear-gradient(0deg, #48abe0 0%, #ff0078 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .home-text h1 {
   font-size: var(--big-font);
   background: #32a5cf;
-  background: linear-gradient(to right, #32a5cf 0%, #ff0078 100%);
+  background: linear-gradient(to right, #219fcc 0%, #01E097 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
