@@ -2,7 +2,7 @@
 
 This portfolio website serves as a representation of my skills, projects and experiences as a front-end developer. It showcases my expertise in designing and developing visually appealing and user-friendly websites using HTML, CSS, JavaScript, and other front-end technologies.
 
-## 🌐 VISIT MY PORTFOLIO : [Pritrage](https://princid.github.io/)
+## 🌐 VISIT MY PORTFOLIO : [PRITRAGE](https://princid.github.io/)
 
 ## 👨‍💻 Technology Stack :
 - HTML
@@ -16,6 +16,6 @@ This portfolio website serves as a representation of my skills, projects and exp
 ### Illustration from : 
 - [Iconscout](https://iconscout.com/illustration/man-developing-website-on-desk-2040889)
 - [Freepik](https://www.freepik.com/free-vector/programming-concept-illustration_7118756.htm#query=developer&position=10&from_view=search&track=sph)
-- ![Canva](https://www.canva.com/)
+- [Canva](https://www.canva.com/)
 
-### 🎨 For Gradient Color : Visit - https://cssgradient.io/
+### 🎨 For Gradient Color : Visit [Here](https://cssgradient.io/)
