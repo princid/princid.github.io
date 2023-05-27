@@ -28,6 +28,7 @@ section {
 body.active {
   --text-color: #fff;
   --bg-color: #0f0c27;
+  /* background: #292828; */
 }
 body {
   background: var(--bg-color);
@@ -136,7 +137,7 @@ b {
 .home-text h1 {
   font-size: var(--big-font);
   background: #32a5cf;
-  background: linear-gradient(to right, #219fcc 0%, #01E097 100%);
+  background: linear-gradient(to right, #219fcc 0%, #01e097 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -155,7 +156,7 @@ b {
 }
 .social a {
   margin-bottom: 1rem;
-  font-size: 22px;
+  font-size: 30px;
   color: var(--text-color);
 }
 .social a:hover {
@@ -399,7 +400,7 @@ form textarea {
   padding: 20px;
   /* background: #ebebeb; */
   background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, #00d4ff 100%);
   color: rgb(255, 255, 255);
 }
 .footer h2 {
@@ -408,27 +409,27 @@ form textarea {
   /* letter-spacing: 0.2rem; */
 }
 .footer-social a i {
-  color: rgb(10, 26, 208);
+   color: #ffffff;
   font-size: 25px;
   margin-left: 10px;
   text-align: center;
   line-height: 40px;
-  background-color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
   border-radius: 50%;
   width: 40px;
   height: 40px;
 }
 
 .footer-social a i:hover {
-  background: rgb(47, 135, 177);
-  background: linear-gradient(147deg, rgba(47, 135, 177, 1) 0%, rgba(131, 58, 180, 1) 46%, rgba(253, 29, 29, 1) 81%);
-  color: rgb(255, 255, 255);
+  /* background: rgb(47, 135, 177);
+  background: linear-gradient(147deg, rgba(47, 135, 177, 1) 0%, rgba(131, 58, 180, 1) 46%, rgba(253, 29, 29, 1) 81%); */
+  color: #12568d;
   font-size: 25px;
   margin-left: 10px;
   text-align: center;
   line-height: 40px;
   background-color: #fff;
-  border-radius: 30%;
   width: 40px;
   height: 40px;
   border: 1px solid #fff;
@@ -502,7 +503,8 @@ form textarea {
     display: none;
   }
   .home {
-    grid-template-columns: 0.5fr 3fr;
+    /* grid-template-columns: 0.5fr 3fr; */
+    grid-template-columns: 1fr;
   }
   .home-text {
     grid-column: 1/3;
