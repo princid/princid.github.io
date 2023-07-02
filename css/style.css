@@ -51,7 +51,8 @@ hr {
 
 .heading span {
   font-size: var(--p-font);
-  color: rgb(2, 166, 70);
+  color: var(--main-color);
+  font-weight: 600;
 }
 header {
   position: fixed;
