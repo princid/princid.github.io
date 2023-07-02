@@ -130,9 +130,9 @@ b {
 .home-text span {
   font-size: var(--medium-font);
   font-weight: 500;
-  background: -webkit-linear-gradient(0deg, #48abe0 0%, #ff0078 100%);
+  /* background: -webkit-linear-gradient(0deg, #48abe0 0%, #ff0078 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 .home-text h1 {
   font-size: var(--big-font);
@@ -165,7 +165,10 @@ b {
 }
 .btn {
   display: inline-block;
-  background: var(--main-color);
+  /* background: var(--main-color); */
+  background: rgb(47, 135, 177);
+  background: linear-gradient(-147deg, rgba(47, 135, 177, 1) 0%, rgba(131, 58, 180, 1) 46%, rgba(243, 29, 253, 1) 81%);
+  color: #fff;
   color: #fff;
   padding: 0.7rem 1.3rem;
   border-radius: 0.5rem;
@@ -440,12 +443,13 @@ form textarea {
   padding: 20px;
   /* background: rgb(41, 40, 40); */
   background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(0, 212, 255) 100%);
   text-align: center;
   color: #fff;
 }
 .copyright a {
-  color: #22cf91;
+  color: #0ddfff;
+  font-weight: 600;
 }
 /* Making it Responsive */
 @media (max-width: 991px) {
