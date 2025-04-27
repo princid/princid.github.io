@@ -217,10 +217,6 @@ b {
   margin-left: 1rem;
 }
 
-.education {
-  margin: 1.5rem 0 1.4rem;
-}
-
 .skills-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -340,11 +336,25 @@ b {
 .project-img img {
   width: 100%;
   display: block;
+  height: 200px; /* Set the desired height */
+  object-fit: contain;
+  border-radius: 8px; /* Optional: Add rounded corners */
 }
 .project-img img:hover {
   transform: scale(1.1);
   transition: 1s;
 }
+/* .project-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--main-color);
+  color: #fff;
+  padding: 0.7rem 1.3rem;
+  border-radius: 0 0.5rem;
+  margin: 1rem 0;
+} */
+
 .project-btn {
   display: flex;
   justify-content: center;
@@ -354,6 +364,11 @@ b {
   padding: 0.7rem 1.3rem;
   border-radius: 0 0.5rem;
   margin: 1rem 0;
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Add ellipsis for truncated text */
+  max-width: 100%; /* Ensure it doesn't exceed the container width */
+  font-size: 0.9rem; /* Adjust font size if needed */
 }
 .project-btn:hover {
   transform: scale(1.1);
@@ -573,4 +588,10 @@ form textarea {
   .contact-button {
     margin-left: 25%;
   }
+}
+.experience-box ul li {
+  margin-top: 10px; /* Adjust the value as needed */
+}
+.about-text p {
+  margin-bottom: 15px; /* Adjust the value as needed */
 }
