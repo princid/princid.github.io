@@ -10,10 +10,14 @@
      
     menu.onclick = () => {
         navbar.classList.toggle('active');
+        menu.classList.toggle('bx-x');
     }
-    window.onscroll = () => {
-        navbar.classList.remove('active');
-    }
+    // window.onscroll = () => {
+    //     if (navbar.classList.contains('active')) {
+    //         navbar.classList.remove('active');
+    //         menu.classList.remove('bx-x');
+    //     }
+    // }
      
     // Dark Mode
     let darkmode = document.querySelector('#darkmode');
