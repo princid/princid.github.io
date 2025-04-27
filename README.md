@@ -1,6 +1,8 @@
 # [🌐 MY PORTFOLIO](https://princid.github.io/)
 
-This portfolio website serves as a representation of my skills, projects and experiences as a front-end developer. It showcases my expertise in designing and developing visually appealing and user-friendly websites using HTML, CSS, JavaScript, and other front-end technologies such as Figma, React & React-Native.
+Welcome to my personal portfolio!
+
+This portfolio represents my professional journey as a Software Developer. It is designed to showcase who I am, the skills I have mastered, the experience I have gained, and the projects I am proud of. Through this platform, I aim to present a clear and organized view of my technical abilities, development style, and areas of interest.
 
 ## 👨‍💻 Technology Stack :
 - HTML
@@ -8,7 +10,8 @@ This portfolio website serves as a representation of my skills, projects and exp
 - JavaScript
 
 # VISUALS OF MY PORTFOLIO
-![image](https://github.com/princid/princid.github.io/assets/90444477/92520510-73ef-4bb9-ba00-19d9196321b7)
+![image](https://github.com/user-attachments/assets/2c825461-56cd-4603-ab61-5839e13994c5)
+
 
 
 ### Illustration from : 
