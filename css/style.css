@@ -100,6 +100,10 @@ header.shadow {
   cursor: pointer;
   z-index: 10001;
   display: none;
+  transition: transform 0.3s ease;
+}
+#menu-icon.bx-x {
+  transform: rotate(180deg);
 }
 #darkmode {
   font-size: 22px;
@@ -495,35 +499,54 @@ form textarea {
   }
   header {
     padding: 11px 4%;
+    position: sticky;
+  }
+  .logo {
+    font-size: 1.4rem;
+    z-index: 10001;
   }
   #menu-icon {
     display: initial;
     color: var(--text-color);
+    z-index: 10001;
   }
   header .navbar {
-    position: absolute;
-    top: -500px;
+    position: fixed;
+    top: 0;
     left: 0;
     right: 0;
     display: flex;
     flex-direction: column;
     background: var(--bg-color);
     box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
-    transition: 0.2s ease;
+    transition: 0.3s ease;
     text-align: center;
+    width: 100%;
+    padding: 1rem 0;
+    z-index: 1000;
+    margin-top: 3rem;
   }
   .navbar.active {
-    top: 100%;
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+  }
+  .navbar:not(.active) {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
   }
   .navbar a {
-    padding: 1.5rem;
+    padding: 1rem;
     display: block;
     background: var(--bg-color);
+    width: 100%;
   }
   #darkmode {
     position: absolute;
     top: 1.4rem;
     right: 2rem;
+    z-index: 10001;
   }
   .scroll-down {
     display: none;
