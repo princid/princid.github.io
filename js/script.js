@@ -132,28 +132,14 @@
                         }, 200);
                     }
                     
-                    // Animate skill items with cascade effect
-                    const skillItems = card.querySelectorAll('.skill-item');
-                    skillItems.forEach((item, itemIndex) => {
-                        // Set custom property for staggered animation
-                        item.style.setProperty('--index', itemIndex + 1);
-                        
-                        // Add a subtle flash effect to each item as it appears
+                    // Animate skill tags with cascade effect
+                    const skillTags = card.querySelectorAll('.skill-tag');
+                    skillTags.forEach((tag, tagIndex) => {
                         setTimeout(() => {
-                            item.style.opacity = '1';
-                            item.style.transform = 'translateX(0)';
-                            item.style.background = 'rgba(17, 181, 178, 0.08)';
-                            
-                            setTimeout(() => {
-                                item.style.background = 'rgba(17, 181, 178, 0.03)';
-                            }, 300);
-                        }, 300 + (itemIndex * 80));
+                            tag.style.opacity = '1';
+                            tag.style.transform = 'translateY(0)';
+                        }, 300 + (tagIndex * 60));
                     });
-                    
-                    // Animate progress bars with slight delay for better visual effect
-                    setTimeout(() => {
-                        animateProgressBars(card);
-                    }, 600);
                     
                 }, index * 150);
             });
@@ -245,17 +231,6 @@
             }
         }
 
-        // Animate Progress Bars
-        function animateProgressBars(card) {
-            const progressBars = card.querySelectorAll('.progress-bar');
-            progressBars.forEach((bar, index) => {
-                setTimeout(() => {
-                    const progress = bar.getAttribute('data-progress');
-                    bar.style.width = progress + '%';
-                }, index * 100 + 300);
-            });
-        }
-
         // Add hover and mouse-follow effects for skill cards
         const skillCards = document.querySelectorAll('.skill-card');
         skillCards.forEach(card => {
@@ -289,14 +264,13 @@
                     badge.style.opacity = '1';
                 }
                 
-                // Animate skill items on hover with staggered effect
-                const skillItems = this.querySelectorAll('.skill-item');
-                skillItems.forEach((item, index) => {
+                // Animate skill tags on hover
+                const skillTags = this.querySelectorAll('.skill-tag');
+                skillTags.forEach((tag, index) => {
                     setTimeout(() => {
-                        item.style.transform = 'translateX(3px)';
-                        item.style.background = 'rgba(17, 181, 178, 0.08)';
-                        item.style.borderLeftColor = 'var(--main-color)';
-                    }, index * 30);
+                        tag.style.background = 'rgba(17, 181, 178, 0.18)';
+                        tag.style.borderColor = 'var(--main-color)';
+                    }, index * 20);
                 });
             });
 
@@ -320,12 +294,11 @@
                     badge.style.opacity = '0.7';
                 }
                 
-                // Reset skill items
-                const skillItems = this.querySelectorAll('.skill-item');
-                skillItems.forEach(item => {
-                    item.style.transform = 'translateX(0)';
-                    item.style.background = 'rgba(17, 181, 178, 0.03)';
-                    item.style.borderLeftColor = 'transparent';
+                // Reset skill tags
+                const skillTags = this.querySelectorAll('.skill-tag');
+                skillTags.forEach(tag => {
+                    tag.style.background = 'rgba(17, 181, 178, 0.08)';
+                    tag.style.borderColor = 'rgba(17, 181, 178, 0.2)';
                 });
             });
         });
